@@ -1,87 +1,46 @@
 
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ano0os.98</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    head>
-  <meta charset="UTF-8">
-  <title>ano0os.98</title>
-
-  <style>
-    body {
-      margin: 0;
-      background-image: url('background.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      font-family: sans-serif;
-    }
-
-    .btn {
-      background-color: #e50914;
-      color: white;
-      border: none;
-      padding: 12px 24px;
-      font-size: 18px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin-top: 20px;
-      transition: background 0.3s;
-    }
-
-    .btn:hover {
-      background-color: #b00610;
-    }
-  </style>
-</head>
-    body {
-      height: 100vh;
-      background-image: url('background.jpg');
-      background-size: cover;
-      background-position: center;
-      font-family: 'Arial', sans-serif;
-      position: relative;
-    }
-    .insta-btn {
-      position: absolute;
-      bottom: 30px;
-      right: 30px;
-      background-color: rgba(255, 0, 0, 0.8);
-      padding: 10px 20px;
-      border-radius: 30px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      transition: 0.3s;
-    }
-    .insta-btn:hover {
-      background-color: rgba(255, 0, 0, 1);
-    }
-    .insta-icon {
-      width: 20px;
-      height: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>رايد الحياة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+        .background {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+            position: relative;
+        }
+        .insta-button {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #E1306C;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .insta-button:hover {
+            background-color: #c42d61;
+        }
+    </style>
 </head>
 <body>
-  <a class="insta-btn" href="https://www.instagram.com/ano0os.98" target="_blank">
-    <img class="insta-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
-    تابعني على إنستغرام
-  </a>
+    <div class="background">
+        <a class="insta-button" href="https://www.instagram.com/ano0os.98" target="_blank">تابعني على إنستغرام</a>
+    </div>
 </body>
 </html>
